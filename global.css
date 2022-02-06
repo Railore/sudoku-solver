@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'jetbrains_monoitalic';
+    src: url('font/jetbrainsmono-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/jetbrainsmono-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'jetbrains_monoregular';
+    src: url('font/jetbrainsmono-variablefont_wght-webfont.woff2') format('woff2'),
+         url('font/jetbrainsmono-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: jetbrains_monoregular;
+}

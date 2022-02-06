@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+		<link rel="stylesheet" type="text/css" media="all" href="./global.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+	<link rel="stylesheet" href="/_app/assets/pages/index.svelte-31ce5089.css">
+	<link rel="modulepreload" href="/_app/start-6523c9e8.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-8507d774.js">
+	<link rel="modulepreload" href="/_app/layout.svelte-5da323e0.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-4bbaf050.js">
+			<script type="module">
+				import { start } from "/_app/start-6523c9e8.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"","assets":""},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/_app/layout.svelte-5da323e0.js"),
+						import("/_app/pages/index.svelte-4bbaf050.js")
+						],
+						url: new URL("http://prerender/"),
+						params: {}
+					}
+				});
+			</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<section class="hero"><div class="hero-body"><p class="title is-1">Sudoku solver
+    </p></div></section>
+
+<div class="input-container svelte-vtgphk"><div class="spacer svelte-vtgphk"><div class="box mb-0 legend svelte-vtgphk"><h1 class="title is-4">Legend
+      </h1>
+      <div class="row svelte-vtgphk"><div class="col-6 mr-3"><h6 class="title is-6">Possibilities left
+          </h6>
+          <div class="is-flex"><span class="cell possibility-0 svelte-vtgphk"></span>
+              <span>: 0</span>
+            </div><div class="is-flex"><span class="cell possibility-1 svelte-vtgphk"></span>
+              <span>: 1</span>
+            </div><div class="is-flex"><span class="cell possibility-2 svelte-vtgphk"></span>
+              <span>: 2</span>
+            </div><div class="is-flex"><span class="cell possibility-3 svelte-vtgphk"></span>
+              <span>: 3</span>
+            </div><div class="is-flex"><span class="cell possibility-4 svelte-vtgphk"></span>
+              <span>: 4</span>
+            </div><div class="is-flex"><span class="cell possibility-5 svelte-vtgphk"></span>
+              <span>: 5</span>
+            </div><div class="is-flex"><span class="cell possibility-6 svelte-vtgphk"></span>
+              <span>: 6</span>
+            </div><div class="is-flex"><span class="cell possibility-7 svelte-vtgphk"></span>
+              <span>: 7</span>
+            </div><div class="is-flex"><span class="cell possibility-8 svelte-vtgphk"></span>
+              <span>: 8</span>
+            </div><div class="is-flex"><span class="cell possibility-9 svelte-vtgphk"></span>
+              <span>: 9</span>
+            </div></div>
+        <div class="col-6 ml-3"><h6 class="title is-6">Hypothesis
+          </h6>
+          <div class="is-flex"><span class="cell hypothesis hypothesis-depth-0 svelte-vtgphk"></span>
+              <span>: 0</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-1 svelte-vtgphk"></span>
+              <span>: 1</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-2 svelte-vtgphk"></span>
+              <span>: 2</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-3 svelte-vtgphk"></span>
+              <span>: 3</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-4 svelte-vtgphk"></span>
+              <span>: 4</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-5 svelte-vtgphk"></span>
+              <span>: 5</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-6 svelte-vtgphk"></span>
+              <span>: 6</span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-7 svelte-vtgphk"></span>
+              <span>: 7</span>
+            </div></div></div>
+      <div class="row mt-3 svelte-vtgphk"><div class="col-12"><h6 class="title is-6">Decision type
+          </h6>
+          <div class="is-flex is-align-content-space-between"><span class="cell hypothesis svelte-vtgphk"></span>
+            <span>: hypothesis (or input)</span></div>
+          <div class="is-flex is-align-content-space-between"><span class="cell deduction svelte-vtgphk"></span>
+            <span>: deduction</span></div></div></div></div></div>
+  <div class="is-flex is-flex-direction-column is-justify-content-space-around"><div class="box mb-0"><div class="sudoku-container svelte-vtgphk"><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="2"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="8"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="1">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="3"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="4">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="9"><input type="number" class="cell svelte-vtgphk" value="7"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="5"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="3"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="7"><input type="number" class="cell svelte-vtgphk" value="5"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="2"><input type="number" class="cell svelte-vtgphk" value="6"><input type="number" class="cell svelte-vtgphk" value="3"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="8"><input type="number" class="cell svelte-vtgphk" value="4"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="5">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="6"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="7"><input type="number" class="cell svelte-vtgphk" value="2"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="5"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="1"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk">
+          </div><div class="row svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="8"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="9"><input type="number" class="cell svelte-vtgphk"><input type="number" class="cell svelte-vtgphk" value="6">
+          </div></div></div>
+    <div><input style="width: 100%" type="range" min="0" max="5000" value="2000"> 
+      <div style="text-align: center">Time between decisions: 2000 ms</div></div>
+    
+    <div class="is-flex is-justify-content-space-around is-invisible"><button class="button is-large">⏸</button></div></div>
+  <div class="spacer svelte-vtgphk"><div class="box mb-0 logs svelte-vtgphk"><h1 class="title is-4">Hypothesis stack
+      </h1>
+      <div class="svelte-vtgphk"><div class="svelte-vtgphk"></div></div></div></div></div>
+<div class="mt-4 is-flex-direction-row is-flex is-justify-content-space-around"><button class="button is-primary is-large">Solve</button>
+</div>
+
+</div>
+	</body>
+</html>
