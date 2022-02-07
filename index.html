@@ -8,13 +8,13 @@
 		<link rel="stylesheet" type="text/css" media="all" href="./global.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-	<link rel="stylesheet" href="/sudoku-solver/internal/assets/pages/index.svelte-ec90ef75.css">
-	<link rel="modulepreload" href="/sudoku-solver/internal/start-4c893d53.js">
+	<link rel="stylesheet" href="/sudoku-solver/internal/assets/pages/index.svelte-52d85db6.css">
+	<link rel="modulepreload" href="/sudoku-solver/internal/start-e5533ed0.js">
 	<link rel="modulepreload" href="/sudoku-solver/internal/chunks/vendor-cad07985.js">
 	<link rel="modulepreload" href="/sudoku-solver/internal/layout.svelte-564ff500.js">
-	<link rel="modulepreload" href="/sudoku-solver/internal/pages/index.svelte-e49d733e.js">
+	<link rel="modulepreload" href="/sudoku-solver/internal/pages/index.svelte-772251d1.js">
 			<script type="module">
-				import { start } from "/sudoku-solver/internal/start-4c893d53.js";
+				import { start } from "/sudoku-solver/internal/start-e5533ed0.js";
 				start({
 					target: document.querySelector("#svelte"),
 					paths: {"base":"","assets":""},
@@ -27,7 +27,7 @@
 						error: null,
 						nodes: [
 							import("/sudoku-solver/internal/layout.svelte-564ff500.js"),
-						  import("/sudoku-solver/internal/pages/index.svelte-e49d733e.js")
+						import("/sudoku-solver/internal/pages/index.svelte-772251d1.js")
 						],
 						url: new URL("http://prerender/"),
 						params: {}
@@ -42,73 +42,80 @@
 <section class="hero"><div class="hero-body"><p class="title is-1">Sudoku solver
     </p></div></section>
 
-<div class="input-container svelte-n0iy2a"><div class="spacer block svelte-n0iy2a" style="order: 0"><div class="box legend svelte-n0iy2a"><h1 class="title is-4">Legend
+<div class="input-container svelte-p37xol"><div class="spacer block svelte-p37xol" style="order: 0"><div class="box legend svelte-p37xol"><h1 class="title is-4">Legend
       </h1>
-      <div class="row svelte-n0iy2a"><div class="col-6 mr-3"><h6 class="title is-6">Possibilities left
+      <div class="row svelte-p37xol"><div class="col-6 mr-3"><h6 class="title is-6">Possibilities left
           </h6>
-          <div class="is-flex"><span class="cell possibility-0 svelte-n0iy2a"></span>
+          <div class="is-flex"><span class="cell possibility-0 svelte-p37xol"></span>
               <span>: 0</span>
-            </div><div class="is-flex"><span class="cell possibility-1 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-1 svelte-p37xol"></span>
               <span>: 1</span>
-            </div><div class="is-flex"><span class="cell possibility-2 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-2 svelte-p37xol"></span>
               <span>: 2</span>
-            </div><div class="is-flex"><span class="cell possibility-3 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-3 svelte-p37xol"></span>
               <span>: 3</span>
-            </div><div class="is-flex"><span class="cell possibility-4 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-4 svelte-p37xol"></span>
               <span>: 4</span>
-            </div><div class="is-flex"><span class="cell possibility-5 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-5 svelte-p37xol"></span>
               <span>: 5</span>
-            </div><div class="is-flex"><span class="cell possibility-6 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-6 svelte-p37xol"></span>
               <span>: 6</span>
-            </div><div class="is-flex"><span class="cell possibility-7 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-7 svelte-p37xol"></span>
               <span>: 7</span>
-            </div><div class="is-flex"><span class="cell possibility-8 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-8 svelte-p37xol"></span>
               <span>: 8</span>
-            </div><div class="is-flex"><span class="cell possibility-9 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell possibility-9 svelte-p37xol"></span>
               <span>: 9</span>
             </div></div>
         <div class="col-6 ml-3"><h6 class="title is-6">Hypothesis
           </h6>
-          <div class="is-flex"><span class="cell hypothesis hypothesis-depth-0 svelte-n0iy2a"></span>
+          <div class="is-flex"><span class="cell hypothesis hypothesis-0 svelte-p37xol"></span>
               <span>: 0</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-1 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-1 svelte-p37xol"></span>
               <span>: 1</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-2 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-2 svelte-p37xol"></span>
               <span>: 2</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-3 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-3 svelte-p37xol"></span>
               <span>: 3</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-4 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-4 svelte-p37xol"></span>
               <span>: 4</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-5 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-5 svelte-p37xol"></span>
               <span>: 5</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-6 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-6 svelte-p37xol"></span>
               <span>: 6</span>
-            </div><div class="is-flex"><span class="cell hypothesis hypothesis-depth-7 svelte-n0iy2a"></span>
+            </div><div class="is-flex"><span class="cell hypothesis hypothesis-7 svelte-p37xol"></span>
               <span>: 7</span>
             </div></div></div>
-      <div class="row mt-3 svelte-n0iy2a"><div class="col-12"><h6 class="title is-6">Decision type
+      <div class="row mt-3 svelte-p37xol"><div class="col-12"><h6 class="title is-6">Decision type
           </h6>
-          <div class="is-flex is-align-content-space-between"><span class="cell hypothesis svelte-n0iy2a"></span>
+          <div class="is-flex is-align-content-space-between"><span class="cell hypothesis svelte-p37xol"></span>
             <span>: hypothesis (or input)</span></div>
-          <div class="is-flex is-align-content-space-between"><span class="cell deduction svelte-n0iy2a"></span>
+          <div class="is-flex is-align-content-space-between"><span class="cell deduction svelte-p37xol"></span>
             <span>: deduction</span></div></div></div></div></div>
-  <div class="is-flex is-flex-direction-column is-justify-content-space-around block" style="order: 10"><div class="box"><div class="sudoku-container svelte-n0iy2a"><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="2"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="8"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="1">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="3"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="4">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="9"><input type="number" class="cell svelte-n0iy2a" value="7"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="5"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="3"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="7"><input type="number" class="cell svelte-n0iy2a" value="5"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="2"><input type="number" class="cell svelte-n0iy2a" value="6"><input type="number" class="cell svelte-n0iy2a" value="3"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="8"><input type="number" class="cell svelte-n0iy2a" value="4"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="5">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="6"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="7"><input type="number" class="cell svelte-n0iy2a" value="2"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="5"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="1"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a">
-          </div><div class="row svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="8"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="9"><input type="number" class="cell svelte-n0iy2a"><input type="number" class="cell svelte-n0iy2a" value="6">
+  <div class="is-flex is-flex-direction-column is-justify-content-space-around block" style="order: 10"><div class="box"><div class="sudoku-container svelte-p37xol"><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="2"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="8"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="1">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="3"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="4">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="9"><input type="number" class="cell svelte-p37xol" value="7"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="5"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="3"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="7"><input type="number" class="cell svelte-p37xol" value="5"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="2"><input type="number" class="cell svelte-p37xol" value="6"><input type="number" class="cell svelte-p37xol" value="3"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="8"><input type="number" class="cell svelte-p37xol" value="4"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="5">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="6"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="7"><input type="number" class="cell svelte-p37xol" value="2"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="5"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="1"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol">
+          </div><div class="row svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="8"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="9"><input type="number" class="cell svelte-p37xol"><input type="number" class="cell svelte-p37xol" value="6">
           </div></div></div>
-    <div><input style="width: 100%" type="range" min="0" max="5000" value="2000"> 
-      <div style="text-align: center">Time between decisions: 2000 ms</div></div>
+    <div><input style="width: 100%" type="range" min="0" max="5000" value="1000"> 
+      <div style="text-align: center">Time between decisions: 1000 ms</div></div>
     
-    <div class="is-flex is-justify-content-space-around is-invisible"><button class="button is-large">⏸</button></div></div>
-  <div class="spacer logs-container block svelte-n0iy2a"><div class="box logs svelte-n0iy2a"><h1 class="title is-4">Hypothesis stack
+    <div class="is-flex is-justify-content-space-around"><div class="dropdown"><div class="dropdown-trigger"><button class="button is-large" aria-haspopup="true" aria-controls="dropdown-menu">↻
+            </button></div>
+          <div class="dropdown-menu centered-dropdown svelte-p37xol" id="dropdown-menu" role="menu"><div class="dropdown-content"><a href="#" class="dropdown-item">very_easy
+                </a><a href="#" class="dropdown-item">easy
+                </a><a href="#" class="dropdown-item">medium
+                </a><a href="#" class="dropdown-item">hard
+                </a><a href="#" class="dropdown-item">expert
+                </a></div></div></div></div></div>
+  <div class="spacer logs-container block svelte-p37xol"><div class="box logs svelte-p37xol"><h1 class="title is-4">Hypothesis stack
       </h1>
-      <div class="svelte-n0iy2a"><div class="svelte-n0iy2a"></div></div></div></div></div>
+      <div class="svelte-p37xol"><div class="svelte-p37xol"></div></div></div></div></div>
 <div class="mt-4 is-flex-direction-row is-flex is-justify-content-space-around"><button class="button is-primary is-large">Solve</button>
 </div>
 
